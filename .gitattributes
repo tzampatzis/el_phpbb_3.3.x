@@ -26,4 +26,4 @@
 .travis.yml      export-ignore
 composer.json    export-ignore
 README.md        export-ignore
-LICENSE			 export-ignore
+LICENSE          export-ignore
