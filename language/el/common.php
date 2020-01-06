@@ -276,10 +276,10 @@ $lang = array_merge($lang, array(
 	'FILESYSTEM_CANNOT_CREATE_SYMLINK'			=> 'Αδύνατη η δημιουργία συμβολικού συνδέσμου (symlink)',
 	'FILESYSTEM_CANNOT_CREATE_DIRECTORY'		=> 'Αδύνατη η δημιουργία φακέλου',
 	'FILESYSTEM_CANNOT_DELETE_FILES'			=> 'Αδύνατη η διαγραφή αρχείων από το σύστημα',
-	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Αδύνατη η καταστροφή του αρχείου',
+	'FILESYSTEM_CANNOT_DUMP_FILE'				=> 'Αδύνατη η εγγραφή στο αρχείο',
 	'FILESYSTEM_CANNOT_MIRROR_DIRECTORY'		=> 'Αδύνατη η αντιγραφή του φακέλου',
 	'FILESYSTEM_CANNOT_RENAME_FILE'				=> 'Αδύνατη η μετονομασία ενός αρχείου από το σύστημα',
-	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Αδύνατο να επαληθευτεί αν το αρχείο υπάρχει',
+	'FILESYSTEM_CANNOT_TOUCH_FILES'				=> 'Αδύνατη η δημιουργία του αρχείου ή η αλλαγή της χρονοσφραγίδας του',
 
 	'FTP_FSOCK_HOST'				=> 'Κόμβος FTP',
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Ο διακομιστής FTP που χρησιμοποιείται για να συνδεθείτε στην ιστοσελίδα σας.',
