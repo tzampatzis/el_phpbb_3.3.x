@@ -39,16 +39,40 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'el', // Find the language/country code on https://developers.google.com/recaptcha/docs/language - If no code exists for your language you can use "en" or leave the string empty
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Για να χρησιμοποιήσετε το reCaptcha πρέπει να δημιουργήσετε ένα λογαριασμό στο <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
+	// Find the language/country code on https://developers.google.com/recaptcha/docs/language
+	// If no code exists for your language you can use "en" or leave the string empty
+	'RECAPTCHA_LANG'				=> 'el-GR',
+
+	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
+	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
+
 	'RECAPTCHA_INCORRECT'			=> 'Η λύση που υποβάλετε ήταν λανθασμένη',
 	'RECAPTCHA_NOSCRIPT'			=> 'Παρακαλούμε ενεργοποιήστε το JavaScript στον περιηγητή σας για να φορτώσετε αυτή την πρόκληση.', //Please enable JavaScript in your browser to load the challenge.
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Για να χρησιμοποιήσετε το reCaptcha πρέπει να δημιουργήσετε ένα λογαριασμό στο <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'			=> 'Αυτό το CAPTCHA είναι αόρατο. Για να ελέγξετε αν λειτουργεί, ένα μικρό εικονίδιο πρέπει να εμφανίζεται στην κάτω δεξιά γωνία αυτής της σελίδας.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Κλειδί ιστοτόπου',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Το κλειδί reCaptcha του ιστοτόπου σας. Κλειδιά μπορούν να αποκτηθούν από το <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v2 &gt; Αόρατος τύπος σήματος reCAPTCHA.',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Το κλειδί reCaptcha του ιστοτόπου σας. Κλειδιά μπορούν να αποκτηθούν από το <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v2 &gt; Αόρατος τύπος σήματος reCAPTCHA.',
+	'RECAPTCHA_V3_PUBLIC_EXPLAIN'	=> 'Το κλειδί reCaptcha του ιστοτόπου σας. Κλειδιά μπορούν να αποκτηθούν από το <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v3.',
 	'RECAPTCHA_PRIVATE'				=> 'Μυστικό κλειδί',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Το μυστικό σας κλειδί reCaptcha. Κλειδιά μπορούν να αποκτηθούν από το <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v2 &gt; Αόρατος τύπος σήματος reCAPTCHA.',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Το μυστικό σας κλειδί reCAPTCHA. Κλειδιά μπορούν να αποκτηθούν από το <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v2 &gt; Αόρατος τύπος σήματος reCAPTCHA.',
+	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'Το μυστικό σας κλειδί reCAPTCHA. Κλειδιά μπορούν να αποκτηθούν από το <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v3.',
 
-	'RECAPTCHA_INVISIBLE'			=> 'Αυτό το CAPTCHA είναι αόρατο. Για να επιβεβαιώσετε ότι λειτουργεί, ένα μικρό εικονίδιο πρέπει να εμφανιστεί στην κάτω δεξιά γωνία της σελίδας.',
+	'RECAPTCHA_V3_DOMAIN'				=> 'Όνομα χώρου αιτήματος',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> 'Το όνομα χώρου που θα εκτελείται το script και θα χρησιμοποιείται για την επαλήθευση του αιτήματος.<br>Χρησιμοποιήστε το <samp>recaptcha.net</samp> όταν το <samp>google.com</samp> δεν λειτουργεί.',
+
+	'RECAPTCHA_V3_METHOD'				=> 'Μέθοδος αιτήματος',
+	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> 'Η μέθοδος που θα χρησιμοποιείται για την επαλήθευση του αιτήματος.<br>Οι απενεργοποιημένες επιλογές δεν είναι διαθέσιμες για τη δική σας εγκατάσταση.',
+	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
+	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
+	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
+
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> 'Προεπιλεγμένο όριο',
+	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> 'Χρησιμοποιείται όταν καμία από τις άλλες ενέργειες δεν μπορούν να εφαρμοστούν.',
+	'RECAPTCHA_V3_THRESHOLD_LOGIN'				=> 'Όριο σύνδεσης',
+	'RECAPTCHA_V3_THRESHOLD_POST'				=> 'Όριο δημοσίευσης',
+	'RECAPTCHA_V3_THRESHOLD_REGISTER'			=> 'Όριο εγγραφής',
+	'RECAPTCHA_V3_THRESHOLD_REPORT'				=> 'Όριο αναφοράς',
+	'RECAPTCHA_V3_THRESHOLDS'					=> 'Όρια',
+	'RECAPTCHA_V3_THRESHOLDS_EXPLAIN'			=> 'Το reCAPTCHA v3 επιστρέφει ένα σκορ (<samp>1.0</samp> είναι πιθανή μια καλή ενέργεια, <samp>0.0</samp> είναι πιθανό να είναι bot). Εδώ μπορείτε να ορίσετε το ελάχιστο σκορ για κάθε ενέργεια.',
 ));

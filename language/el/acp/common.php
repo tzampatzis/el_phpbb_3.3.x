@@ -502,13 +502,13 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν διαχειριστές</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν γενικοί συντονιστές</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης Δ. Συζήτησης μέλους</strong> από %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα συντονιστών πρόσβασης Δ. Συζήτησης μέλους</strong> από %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης Δ. Συζήτησης ομάδας</strong> από %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης συντονιστών Δ. Συζήτησης ομάδας</strong> από %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης Δ. Συζήτησης μέλους</strong> σε %1$s<br />» %2$s',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα συντονιστών πρόσβασης Δ. Συζήτησης μέλους</strong> σε %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης Δ. Συζήτησης ομάδας</strong> σε %1$s<br />» %2$s',
+	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν δικαιώματα πρόσβασης συντονιστών Δ. Συζήτησης ομάδας</strong> σε %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν Συντονιστές</strong> από %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν προσβάσεις Δ. Συζήτησης</strong> από %1$s<br />» %2$s',
+	'LOG_ACL_ADD_MOD_LOCAL_M_'			=> '<strong>Προστέθηκαν ή επεξεργάστηκαν Συντονιστές</strong> για %1$s<br />» %2$s',
+	'LOG_ACL_ADD_FORUM_LOCAL_F_'		=> '<strong>Προστέθηκαν ή επεξεργάστηκαν προσβάσεις Δ. Συζήτησης</strong> για %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'		=> '<strong>Αφαιρέθηκαν Διαχειριστές</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'			=> '<strong>Αφαιρέθηκαν Γενικοί Συντονιστές</strong><br />» %s',
