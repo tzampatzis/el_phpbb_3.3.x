@@ -37,6 +37,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
+	'CLI_APCU_CACHE_NOTICE'				=> 'Η προσωρινή μνήμη APCu πρέπει να εκκαθαριστεί μέσα από τον Πίνακα Ελέγχου Διαχειριστή.',
+
 	'CLI_CONFIG_CANNOT_CACHED'			=> 'Ορίστε αυτή την επιλογή αν η επιλογή ρύθμισης αλλάζει πολύ συχνά για να γίνεται προσωρινή αποθήκευση αποτελεσματικά.',
 	'CLI_CONFIG_CURRENT'				=> 'Τρέχουσα τιμή ρύθμισης, χρησιμοποιήστε 0 και 1 για να καθορίσετε λογικές τιμές',
 	'CLI_CONFIG_DELETE_SUCCESS'			=> 'Επιτυχής διαγραφή της ρύθμισης %s.',

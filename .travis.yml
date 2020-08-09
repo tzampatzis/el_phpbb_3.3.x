@@ -7,7 +7,7 @@ php:
 
 env:
   global:
-   - PHPBB_TAG="release-3.3.0"
+   - PHPBB_TAG="release-3.3.1"
    - PHPBB_VERSION="3.3"
    - PHPBB_LANGUAGE="el"
 

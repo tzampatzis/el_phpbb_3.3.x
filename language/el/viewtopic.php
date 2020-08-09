@@ -51,8 +51,6 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> 'Τελευταία φορά σημειώθηκε ως νέο από το μέλος %1$s την %2$s.',
 	'BUMP_TOPIC'			=> 'Σημειώστε το θέμα ως νέο',
 
-	'CODE'					=> 'Κώδικας',
-
 	'DELETE_TOPIC'			=> 'Διαγραφή θέματος',
 	'DELETED_INFORMATION'	=> 'Διαγράφηκε από το μέλος %1$s την %2$s',
 	'DISAPPROVE'			=> 'Απόρριψη',
@@ -100,7 +98,6 @@ $lang = array_merge($lang, array(
 
 	'QUICK_MOD'				=> 'Γρήγορα εργαλεία συντονισμού',
 	'QUICKREPLY'			=> 'Γρήγορη απάντηση',
-	'QUOTE'					=> 'Παράθεση',
 
 	'REPLY_TO_TOPIC'		=> 'Απάντηση στο θέμα',
 	'RESTORE'				=> 'Επαναφορά',
