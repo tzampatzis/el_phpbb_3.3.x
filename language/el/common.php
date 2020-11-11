@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'USER_LANG'			=> 'el',
 
 	// You can define different rules for the determination of plural forms here.
-	// See https://area51.phpbb.com/docs/dev/32x/language/plurals.html for more information
+	// See https://area51.phpbb.com/docs/dev/3.3.x/language/plurals.html for more information
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
@@ -112,6 +112,8 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'Το άβαταρ δεν μπορεί να φορτωθεί.',
 	'AVATAR_NO_TEMP_DIR'			=> 'Ο προσωρινός φάκελος δεν μπορεί να βρεθεί ή δεν είναι εγγράψιμος.',
 	'AVATAR_NO_SIZE'				=> 'Το πλάτος ή το ύψος του άβαταρ δεν μπορεί να καθοριστεί. Παρακαλώ εισάγετέ το χειροκἰνητα.',
+	'AVATAR_NO_UPLOAD_DIR'			=> 'Το μονοπάτι αποθήκευσης άβαταρ δεν υπάρχει ή δεν είναι εγγράψιμο.',
+	'AVATAR_NO_UPLOAD_PATH'			=> 'Η μεταφόρτωση άβαταρ είναι ενεργοποιημένη, αλλά το μονοπάτι αποθήκευσης άβαταρ δεν έχει ρυθμιστεί.',
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Το συγκεκριμένο αρχείο φορτώθηκε μόνο εν μέρει.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Το μέγεθος αρχείου άβαταρ είναι πολύ μεγάλο.<br />Το μέγιστο επιτρεπτό μέγεθος στο php.ini δεν μπορεί να προσδιοριστεί.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Το μέγεθος του αρχείου άβαταρ είναι πάρα πολύ μεγάλο. Το μέγιστο επιτρεπτό μέγεθος αρχείου φόρτωσης είναι %1$d %2$s.<br />Παρακαλώ σημειώστε ότι αυτό έχει ρυθμιστεί στο php.ini και δεν μπορεί να παρακαμφθεί',
@@ -491,6 +493,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_REFERENCE'			=> '"%1$s"',
 	'NOTIFICATION_REASON'				=> '<em>Λόγος:</em> %1$s.',
 	'NOTIFICATION_REPORT_PM'			=> '<strong>Αναφορά προσωπικού μηνύματος</strong> από %1$s:',
+	'NOTIFICATION_REPORT_PM_CLOSED'		=> '<strong>Αναφορά προσωπικού μηνύματος έχει κλείσει</strong> από %1$s:',
 	'NOTIFICATION_REPORT_POST'			=> '<strong>Αναφορά δημοσίευσης</strong> από %1$s:',
 	'NOTIFICATION_REPORT_CLOSED'		=> '<strong>Κλείσιμο αναφορά</strong> από %1$s για:',
 	'NOTIFICATION_TOPIC'				=> '<strong>Νέο θέμα</strong> από %1$s:',
