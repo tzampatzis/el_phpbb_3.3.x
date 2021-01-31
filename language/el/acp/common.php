@@ -373,9 +373,11 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Η διαφανής κωδικοποίηση χαρακτήρων δεν έχει ρυθμιστεί σωστά.',
 	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> 'Το <var>mbstring.encoding_translation</var> πρέπει να οριστεί σε 0. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP μετατροπή χαρακτήρων εισόδου δεν έχει ρυθμιστεί σωστά', // HTTP input character conversion is improperly configured
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Το <var>mbstring.http_input</var> πρέπει να οριστεί σε <samp>pass</samp>. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> 'Το <var>mbstring.http_input</var> πρέπει να μείνει κενό. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP μετατροπή χαρακτήρων εξόδου δεν έχει ρυθμιστεί σωστά', // HTTP output character conversion is improperly configured
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Το <var>mbstring.http_output</var> πρέπει να οριστεί σε <samp>pass</samp>. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> 'Το <var>mbstring.http_output</var> πρέπει να μείνει κενό. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
+	'ERROR_DEFAULT_CHARSET'							=> 'Η προεπιλεγμένη μορφή του συνόλου χαρακτήρων είναι ρυθμισμένη λανθασμένα',
+	'ERROR_DEFAULT_CHARSET_EXPLAIN'					=> 'Το <var>default_charset</var> πρέπει να οριστεί σε <samp>UTF-8</samp>. Μπορείτε να ελέγξετε την τρέχουσα τιμή στη σελίδα <samp>Πληροφορίες PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Συνημμένα ανά ημέρα',
 	'FORUM_STATS'		=> 'Στατιστικά συστήματος συζητήσεων',
