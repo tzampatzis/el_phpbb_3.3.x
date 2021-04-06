@@ -1,4 +1,4 @@
-Subject: Αναφορά προσωπικού μηνύματος - "{TOPIC_TITLE}"
+Subject: Αναφορά προσωπικού μηνύματος - "{SUBJECT}"
 
 Γεια σας {USERNAME},
 
