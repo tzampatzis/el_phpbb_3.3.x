@@ -46,10 +46,11 @@ $lang = array_merge($lang, [
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha v2',
 	'CAPTCHA_RECAPTCHA_V3'			=> 'reCaptcha v3',
 
-	'RECAPTCHA_INCORRECT'			=> 'Η λύση που υποβάλετε ήταν λανθασμένη',
-	'RECAPTCHA_NOSCRIPT'			=> 'Παρακαλούμε ενεργοποιήστε το JavaScript στον περιηγητή σας για να φορτώσετε αυτή την πρόκληση.', //Please enable JavaScript in your browser to load the challenge.
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Για να χρησιμοποιήσετε το reCaptcha πρέπει να δημιουργήσετε ένα λογαριασμό στο <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
-	'RECAPTCHA_INVISIBLE'			=> 'Αυτό το CAPTCHA είναι αόρατο. Για να ελέγξετε αν λειτουργεί, ένα μικρό εικονίδιο πρέπει να εμφανίζεται στην κάτω δεξιά γωνία αυτής της σελίδας.',
+	'RECAPTCHA_INCORRECT'				=> 'Η λύση που υποβάλατε ήταν λανθασμένη',
+	'RECAPTCHA_NOSCRIPT'				=> 'Παρακαλούμε ενεργοποιήστε τη JavaScript στον περιηγητή σας για να φορτώσετε αυτή την πρόκληση.',
+	'RECAPTCHA_NOT_AVAILABLE'			=> 'Για να χρησιμοποιήσετε το reCaptcha, πρέπει να δημιουργήσετε ένα λογαριασμό στο <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
+	'RECAPTCHA_INVISIBLE'				=> 'Αυτό το CAPTCHA είναι αόρατο. Για να ελέγξετε αν λειτουργεί, ένα μικρό εικονίδιο πρέπει να εμφανίζεται στην κάτω δεξιά γωνία αυτής της σελίδας.',
+	'RECAPTCHA_V3_LOGIN_ERROR_ATTEMPTS'	=> 'Έχετε υπερβεί το μέγιστο αριθμό προσπαθειών σύνδεσης.<br>Επιπρόσθετα από το όνομα χρήστη σας και τον κωδικό σας, θα χρησιμοποιηθεί το αόρατο reCAPTCHA v3 για επαλήθευση της συνεδρίας σας.',
 
 	'RECAPTCHA_PUBLIC'				=> 'Κλειδί ιστοτόπου',
 	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Το κλειδί reCaptcha του ιστοτόπου σας. Κλειδιά μπορούν να αποκτηθούν από το <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>. Παρακαλώ, χρησιμοποιήστε το reCAPTCHA v2 &gt; Αόρατος τύπος σήματος reCAPTCHA.',

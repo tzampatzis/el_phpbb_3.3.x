@@ -11,6 +11,7 @@ Greek language for phpBB 3.3.x
  * (μετάφραση tzampatzis)
  * (υποστήριξη greko11)
 
-Τρέχουσα έκδοση **3.3.3**
+Τρέχουσα έκδοση **3.3.4**
 
-Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB. [![Build Status](https://travis-ci.org/tzampatzis/el_phpbb_3.3.x.svg?branch=master)](https://travis-ci.org/tzampatzis/el_phpbb_3.3.x)
+Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB.[![Build Status](https://travis-ci.com/tzampatzis/el_phpbb_3.3.x.svg?branch=master)](https://travis-ci.com/github/tzampatzis/el_phpbb_3.3.x)
+

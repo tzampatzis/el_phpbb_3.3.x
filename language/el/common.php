@@ -97,6 +97,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_ENTRY'				=> 'Άκυρη καταχώρηση στη βάση δεδομένων.',
 	'AUTH_PROVIDER_OAUTH_ERROR_INVALID_SERVICE_TYPE'		=> 'Άκυρος τύπος υπηρεσίας που παρέχεται στο χειριστή υπηρεσίας OAuth.',
 	'AUTH_PROVIDER_OAUTH_ERROR_REQUEST'						=> 'Κάτι πήγε στραβά κατα την επεξεργασία του αιτήματός OAuth σας.',
+	'AUTH_PROVIDER_OAUTH_RETURN_ERROR'						=> 'Η εξωτερική υπηρεσία επέστρεψε μια λανθασμένη τιμή, ως εκ τούτου το αίτημά σας δε μπορεί να προχωρήσει.',
 	'AUTH_PROVIDER_OAUTH_ERROR_SERVICE_NOT_CREATED'			=> 'Η υπηρεσία OAuth δεν δημιουργήθηκε',
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
