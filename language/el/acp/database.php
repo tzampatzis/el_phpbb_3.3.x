@@ -72,7 +72,6 @@ $lang = array_merge($lang, array(
 	'START_RESTORE'			=> 'Εκκίνηση επαναφοράς',
 	'STORE_AND_DOWNLOAD'	=> 'Αποθήκευση και μεταφόρτωση',
 	'STORE_LOCAL'			=> 'Αποθήκευση αρχείου τοπικά',
-	'STRUCTURE_ONLY'		=> 'Δομή μόνο',
 
 	'TABLE_SELECT'		=> 'Επιλογή πινάκων',
 	'TABLE_SELECT_ERROR'=> 'Πρέπει να επιλέξετε τουλάχιστον έναν πίνακα.',
