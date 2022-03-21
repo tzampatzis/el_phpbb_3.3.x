@@ -1,13 +1,13 @@
 language: php
 
 php:
-  - 7.2
   - 7.3
   - 7.4
+  - 8.0
 
 env:
   global:
-   - PHPBB_TAG="release-3.3.5"
+   - PHPBB_TAG="release-3.3.7"
    - PHPBB_VERSION="3.3"
    - PHPBB_LANGUAGE="el"
 
