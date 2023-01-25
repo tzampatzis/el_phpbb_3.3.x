@@ -680,6 +680,10 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sΕπιστροφή στο θέμα που επισκεφτήκατε τελευταία%s',
 	'RETURN_TO'					=> 'Επιστροφή στο “%s”',
 	'RETURN_TO_INDEX'			=> 'Επιστροφή στο ευρετήριο',
+
+	'ROUTE_NOT_FOUND'				=> 'Η ζητηθείσα διαδρομή “%s” δε βρέθηκε.',
+	'ROUTE_INVALID_MISSING_PARAMS'	=> 'Έχουν περαστεί άκυρες ή ελλειπής παράμετροι για τη διαδρομή “%s”.',
+
 	'FEED'						=> 'Τροφοδοσία',
 	'FEED_NEWS'					=> 'Νέα',
 	'FEED_TOPICS_ACTIVE'		=> 'Ενεργά Θέματα',
