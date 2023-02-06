@@ -740,6 +740,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>Δημιουργήθηκε ευρετήριο αναζήτησης για</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>Αφαιρέθηκε ευρετήριο αναζήτησης για</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Λάθος Sphinx</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Το Spamhaus δεν επιτρέπει ερωτήματα χρησιμοποιώντας έναν ανοιχτό αναλυτή. Ο έλεγχος αποκλεισμένων έχει απενεργοποιηθεί. Για περισσότερες πληροφορίες, δείτε https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Έχει υπερβεί ο όγκος ερωτημάτων στο Spamhaus. Ο έλεγχος αποκλεισμένων έχει απενεργοποιηθεί. Για περισσότερες πληροφορίες, δείτε https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>Προστέθηκε νέο στυλ</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>Διαγράφηκε στυλ</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>Επεξεργάσθηκε στυλ</strong><br />» %s',
