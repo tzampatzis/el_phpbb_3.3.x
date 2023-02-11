@@ -13,5 +13,4 @@ Greek language for phpBB 3.3.x
 
 Τρέχουσα έκδοση **3.3.10 **
 
-Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB.[![Build Status](https://travis-ci.com/tzampatzis/el_phpbb_3.3.x.svg?branch=master)](https://travis-ci.com/github/tzampatzis/el_phpbb_3.3.x)
-
+Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB. Ωστόσο είναι εκκρεμής η διαδικασία μετάβασης της επαλήθευσης (validation) από το αυτοματοποιημένο σύστημα που χρησιμοποιούσαμε πριν (Travis CI) σε αυτό που θα χρησιμοποιούμε εφεξής (GitHub Actions).
