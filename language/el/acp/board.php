@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> 'Στυλ συστήματος συζητήσεων',
 	'CUSTOM_DATEFORMAT'				=> 'Προσαρμοσμένη…',
 	'DEFAULT_DATE_FORMAT'			=> 'Μορφή ημερομηνίας',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Η μορφή ημερομηνίας είναι ίδια με αυτή της συνάρτησης PHP <code><a href="https://secure.php.net/manual/function.date.php">date()</a></code>.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'Χρησιμοποιείται ίδια σύνταξη με αυτή των <a href="https://www.php.net/manual/datetime.format.php">συναρτήσεων ημερομηνίας</a> της PHP.',
 	'DEFAULT_LANGUAGE'				=> 'Προεπιλεγμένη γλώσσα',
 	'DEFAULT_STYLE'					=> 'Προεπιλεγμένο στυλ',
 	'DEFAULT_STYLE_EXPLAIN'			=> 'Το προεπιλεγμένο στυλ για νέα μέλη.',

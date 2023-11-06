@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 	'BIRTHDAY'					=> 'Γενέθλια',
 	'BIRTHDAY_EXPLAIN'			=> 'Εισάγοντας το έτος γεννήσεώς σας θα εμφανίζεται και η ηλικία σας την ημέρα γενεθλίων σας.',
 	'BOARD_DATE_FORMAT'			=> 'Μορφή ημερομηνίας μου',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Η σύνταξη είναι πανομοιότυπη με τη συνάρτηση <a href="https://secure.php.net/manual/function.date.php">date()</a> της PHP.',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'Η σύνταξη χρησιμοποιεί ίδια μορφή με τις <a href="https://www.php.net/manual/datetime.format.php">συναρτήσεις ημερομηνίας</a> της PHP.',
 	'BOARD_LANGUAGE'			=> 'Γλώσσα επικοινωνίας μου',
 	'BOARD_STYLE'				=> 'Το στυλ μου',
 	'BOARD_TIMEZONE'			=> 'Η ωρολογιακή ζώνη μου',
