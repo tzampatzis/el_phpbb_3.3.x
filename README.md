@@ -1,5 +1,7 @@
 # el_phpbb_3.3.x
 
+[![Validation](https://github.com/tzampatzis/el_phpbb_3.3.x/actions/workflows/validator.yml/badge.svg)](https://github.com/tzampatzis/el_phpbb_3.3.x/actions/workflows/validator.yml)
+
 Greek language for phpBB 3.3.x
 
 Αρχεία Ελληνικής γλώσσας για phpBB 3.3.x
@@ -13,4 +15,4 @@ Greek language for phpBB 3.3.x
 
 Τρέχουσα έκδοση **3.3.11**
 
-Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB. Ωστόσο είναι εκκρεμής η διαδικασία μετάβασης της επαλήθευσης (validation) από το αυτοματοποιημένο σύστημα που χρησιμοποιούσαμε πριν (Travis CI) σε αυτό που θα χρησιμοποιούμε εφεξής (GitHub Actions).
+Η γλώσσα είναι valid σύμφωνα με τις οδηγίες του phpBB.
