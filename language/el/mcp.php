@@ -261,7 +261,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Μόνο θέμα “%s”',
 	'OTHER_USERS'			=> 'Άλλα μέλη τα οποία έχουν δημοσιεύσει από αυτή τη διεύθυνση IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s δεν επιτρέπεται ως γρήγορο εργαλείο",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s δεν επιτρέπεται ως γρήγορο εργαλείο',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Η επιλεγμένη αναφορά ΠΜ έχει κλείσει με επιτυχία.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'Η επιλεγμένη αναφορά ΠΜ έχει διαγραφεί με επιτυχία.',
