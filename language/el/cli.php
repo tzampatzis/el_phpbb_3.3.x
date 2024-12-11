@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> 'Reparses stored text with the current text_formatter services.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> 'Τύπος κειμένου για νέα ανάλυση. Αφήστε το κενό για να γίνει νέα ανάλυση σε όλα.', // Type of text to reparse. Leave blank to reparse everything.
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> 'Να μην αποθηκευτεί καμία αλλαγή, απλά να εκτυπωθεί ό,τι θα συνέβαινε', // Do not save any changes; just print what would happen
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> 'Ανάλυση ξανά όλων των BBCodes χωρίς εξαίρεση. Σημειώστε ότι οποιοδήποτε BBCodes είχε απενεργοποιηθεί στο παρελθόν θα επανεπεξεργαστεί, ενεργοποιηθεί, και θα αποκατασταθεί πλήρως.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> 'Χαμηλότερος αριθμός εγγραφής σε διαδικασία', // Lowest record ID to process
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> 'Υψηλότερος αριθμός εγγραφής σε διαδικασία', // Highest record ID to process
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> 'Κατά προσέγγιση αριθμός εγγραφών για την επεξεργασία σε έναν χρόνο', // Approximate number of records to process at a time
