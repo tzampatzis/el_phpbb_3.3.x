@@ -114,6 +114,7 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> 'Λεπτομέρειες δημοσίευσης',
 	'VIEW_NEXT_TOPIC'		=> 'Επόμενο θέμα',
 	'VIEW_PREVIOUS_TOPIC'	=> 'Προηγούμενο θέμα',
+	'VIEW_QUOTED_POST'		=> 'Προβολή δημοσίευσης παράθεσης',
 	'VIEW_RESULTS'			=> 'Προβολή αποτελεσμάτων',
 	'VIEW_TOPIC_POSTS'		=> array(
 		1	=> '%d δημοσίευση',
