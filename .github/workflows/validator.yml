@@ -7,7 +7,7 @@ jobs:
       matrix:
         php: [ '7.4' ]
     env:
-      PHPBB_BRANCH: release-3.3.14
+      PHPBB_BRANCH: release-3.3.15
       PHPBB_VERSION: 3.3
       PHPBB_LANGUAGE: el
     name: Build with PHP ${{ matrix.php }}
