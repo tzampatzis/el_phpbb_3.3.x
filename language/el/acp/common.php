@@ -611,6 +611,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Άλλαξε τύπος θέματος</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Ξεκλειδώθηκε θέμα</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Ξεκλειδώθηκε δημοσίευση</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Αποτυχία ελέγχου έκδοσης</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Προστέθηκε μη επιτρεπτό όνομα μέλους</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Διαγράφηκε μη επιτρεπτό όνομα μέλους</strong>',

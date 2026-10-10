@@ -354,6 +354,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Η αναφορά σας για ένα προσωπικό μήνυμα έχει κλείσει από έναν συντονιστή',
 	'NOTIFICATION_TYPE_TOPIC'				=> 'Κάποιος δημιούργησε ένα θέμα σε μια Δ. Συζήτηση στην οποία είστε συνδρομητής',
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'	=> 'Μέλη που χρειάζονται ενεργοποίηση',
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'ειδοποιήσεις ενημέρωσης phpBB',
 
 	'NOTIFY_METHOD'					=> 'Μέθοδος ειδοποίησης',
 	'NOTIFY_METHOD_BOTH'			=> 'Και τα δυο',
