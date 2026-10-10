@@ -150,6 +150,6 @@ $lang = array_merge($lang, array(
 	'VIEWING_PROFILE'			=> 'Προβολή προφίλ - %s',
 	'VIEW_FACEBOOK_PROFILE'		=> 'Προβολή προφίλ Facebook',
 	'VIEW_SKYPE_PROFILE'		=> 'Προβολή προφίλ Skype',
-	'VIEW_TWITTER_PROFILE'		=> 'Προβολή προφίλ Twitter',
+	'VIEW_TWITTER_PROFILE'		=> 'Προβολή προφίλ X',
 	'VIEW_YOUTUBE_PROFILE'		=> 'Προβολή προφίλ YouTube',
 ));

@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'Το διακριτικό OAuth δεν αποθηκεύτηκε.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'Το διακριτικό OAuth αποθηκεύτηκε εσφαλμένα.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'Η φόρτωση απορρίφθηκε επειδή το αρχείο προς φόρτωση προσδιορίστηκε ως πιθανό διάνυσμα επίθεσης.',
@@ -340,6 +340,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d επισκέπτες',
 	),
 	'G_ADMINISTRATORS'			=> 'Διαχειριστές',
+	'G_AI_CRAWLERS'				=> 'Ανιχνευτές AI',
 	'G_BOTS'					=> 'Bots',
 	'G_GUESTS'					=> 'Επισκέπτες',
 	'G_REGISTERED'				=> 'Εγγεγραμμένα μέλη ',
@@ -511,6 +512,9 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Αίτημα έγκρισης θέματος</strong> από %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Ο τύπος ειδοποίησης "%s" λείπει από το σύστημα αρχείων.',
 	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Απαιτείται ενεργοποίηση</strong> για απενεργοποιημένο ή πρόσφατο εγγεγραμμένο μέλος: “%1$s”',
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>Το phpBB %2$s έχει μια διαθέσιμη ενημέρωση - Κρίσιμη ενημέρωση απαιτείται</strong>: Το σύστημά σας λειτουργεί με έκδοση %1$s και πρέπει να εγκατασταθεί μια νέα έκδοση που περιλαμβάνει κρίσιμες διορθώσεις ασφαλείας.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>Το phpBB %2$s έχει μια διαθέσιμη ενημέρωση</strong>: Το σύστημά σας λειτουργεί με έκδοση %1$s και υπάρχει μια νέα έκδοση διαθέσιμη.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>Το phpBB %2$s έχει μια διαθέσιμη ενημέρωση - Ενημέρωση ασφαλείας</strong>: Το σύστημά σας λειτουργεί με έκδοση %1$s και υπάρχει μια νέα έκδοση διαθέσιμη που περιλαμβάνει διορθώσεις ασφαλείας. Συνιστούμε την ενημέρωση του συστήματός σας για να διατηρήσετε το σύστημά σας ασφαλές και προστατευμένο.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'άλλα',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -844,7 +848,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Σύνολο μελών <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'Εντοπισμένα σφάλματα PHP: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'		=> 'Δεν ήταν δυνατόν να προσδιοριστούν οι διαστάσεις της εικόνας. Παρακαλώ επαληθεύστε ότι ο σύνδεσμος (URL) που εισάγατε είναι σωστός.',
 	'UNABLE_TO_DELIVER_FILE'	=> 'Αδυναμία παράδοσης αρχείου.',
